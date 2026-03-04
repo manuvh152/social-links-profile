@@ -167,6 +167,10 @@ h3{
 	margin-top: 1.5em;
 }
 
+a:link{
+	text-decoration: none;
+}
+
 .card{
 	display: grid;
 	width: 260px;
@@ -208,6 +212,11 @@ h3{
 }
 
 .social:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 8%);
+}
+
+.social:focus{
 	background-color: hsl(75, 94%, 57%);
 	color: hsl(0, 0%, 8%);
 }
